@@ -12,8 +12,7 @@ blog/tag:
 - docker
 date: 2021-01-29
 description: Our new research shows Amazon's ECS steadily gaining steam
-draft: false
-image: ecs-monitoring.png
+image: "/images/2020-three-quarters-3.png"
 meta_title: 3 clear trends in ECS adoption
 preview_image: ecs-monitoring.png
 slug: 3-clear-trends-in-ecs-adoption
@@ -21,14 +20,15 @@ sub_featured: false
 technology: aws ecs
 title: 3 clear trends in ECS adoption
 tcp:
-- title: "Research Study: 8 Emerging Trends in Container Orchestration"
-  desc: "Gain new insights into ECS, Kubernetes, Docker orchestration trends.  "
-  cta: "Download to learn more  "
-  link: "https://www.datadoghq.com/resources/8-emerging-trends-in-container-orchestration/?utm_source=Content&utm_medium=whitepaper&utm_campaign=BlogCTA-OrchestrationTrends"
-  img: Thumbnail-ContainerOrchestrationDec2018.png 
+- title: 'Research Study: 8 Emerging Trends in Container Orchestration'
+  desc: 'Gain new insights into ECS, Kubernetes, Docker orchestration trends.  '
+  cta: 'Download to learn more  '
+  link: https://www.datadoghq.com/resources/8-emerging-trends-in-container-orchestration/?utm_source=Content&utm_medium=whitepaper&utm_campaign=BlogCTA-OrchestrationTrends
+  img: Thumbnail-ContainerOrchestrationDec2018.png
+author:
+- Test
 
 ---
-
 Last year, we published [a study of Docker usage][docker-adopt] across our broad customer base. The data, which we then updated in June 2016, shows that the excitement around Docker is not just hype. Docker is being used at a large and ever-increasing number of organizations, and the companies that try Docker tend to stick with it.
 
 As this young technology finds increasing use in production environments, we decided to take a deeper look at how organizations are managing their containerized application infrastructure. At Datadog, we have seen a tremendous amount of interest in container orchestration tools such as [Kubernetes][k8s-guide] and [Amazon ECS][ecs-dd], but we wanted to see if our anecdotal observations were backed up by actual usage data.  
@@ -116,4 +116,3 @@ As container orchestration marches closer to the mainstream, we will continue to
 [k8s-guide]:     https://www.datadoghq.com/blog/monitoring-kubernetes-era/
 [mesos-dd]:      https://www.datadoghq.com/blog/monitor-mesos-cluster-datadog/
 [ecs-dd]:        https://www.datadoghq.com/blog/monitor-docker-on-aws-ecs/
-
