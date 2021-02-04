@@ -33,7 +33,6 @@ sections:
 - type: document
   path: data/offices.yaml
   label: Offices
-  read_only: false
 - type: document
   path: README.md
   label: README
