@@ -1,0 +1,257 @@
+offices:
+  - street: 620 8th Ave
+    street_two: 45th Floor
+    city: New York
+    state: NY
+    post_code: 10018
+    country: USA
+    region: north_america
+    headquarter: 
+        type: global
+        desktop_image: nyc_v2.png
+        mobile_image: nyc_mobile_v2.png
+  - street: 225 Franklin Street
+    street_two: 24th Floor
+    city: Boston
+    state: MA
+    post_code: "02110"
+    country: USA
+    region: north_america
+    headquarter:
+        type: regional
+        desktop_image: boston_v2.png
+        mobile_image: boston_mobile_v2.png
+  - street: 21 Rue de Châteaudun
+    street_two: 6th Floor
+    city: Paris
+    state: null
+    post_code: 75009
+    country: France
+    region: emea
+    headquarter: 
+        type: regional
+        desktop_image: paris_v2.png
+        mobile_image: paris_mobile_v2.png
+  - street: 13-18 City Quay
+    street_two: 1st Floor
+    city: Dublin
+    state: null
+    post_code: D02 ED70
+    country: Ireland
+    region: emea
+    headquarter: 
+      type: regional
+      desktop_image: dublin_v2.png
+      mobile_image: dublin_mobile_v2.png
+  - street: 2-13-12, Nihonbashi, Chuo-ku,
+    street_two: null
+    city: Tokyo
+    state: null
+    post_code: 103-0027
+    country: Japan
+    region: apac
+    headquarter: 
+      type: regional
+      desktop_image: tokyo_v2.png
+      mobile_image: tokyo_mobile_v2.png
+  - street: 71 Robinson Road
+    street_two: null
+    city: Singapore
+    state: null
+    post_code: "068895"
+    country: Singapore
+    region: apac
+    headquarter: 
+      type: regional
+      desktop_image: singapore_v2.png
+      mobile_image: singapore_mobile_v2.png
+  - street: 900 E Hamilton Ave
+    city2: Campbell
+    city: San Jose
+    post_code: 95008
+    street_two: null
+    state: CA
+    region: north_america
+    location: san-jose
+    country: USA
+  - street: 10400 NE 4th St
+    streeet_two: null
+    city: Bellevue
+    state: WA
+    post_code: 98004
+    country: USA
+    region: north_america
+  - street: 20 W Kinzie St
+    streeet_two: null
+    city: Chicago
+    state: IL
+    post_code: 60654
+    country: USA
+    region: north_america
+  - street: 1200 17th St
+    streeet_two: null
+    city: Denver
+    state: CO
+    post_code: 80202
+    country: USA
+    region: north_america
+  - street: 1 Poultry
+    streeet_two: null
+    city: London
+    state: null
+    post_code: EC2R 8EJ
+    country: United Kingdom
+    region: emea
+  - street: Malmskillnadsgatan 32
+    street_two: null
+    city: Stockholm
+    state: null
+    post_code: AB 111 51
+    country: Sweden
+    region: emea
+  - street: 7700 Windrose Ave
+    street_two: null
+    city: Plano
+    state: TX
+    post_code: 75024
+    country: USA
+    region: north_america
+  - street: 700 SW 5th Ave
+    street_two: null
+    city: Portland
+    state: OR
+    post_code: 97204
+    country: USA
+    region: north_america
+  - street: Hermannstraße 13
+    street_two: null
+    city: Hamburg
+    state: null
+    post_code: 20095
+    country: Germany
+    region: emea
+  - street: Neue Rothofstraße 13-19
+    street_two: null
+    city: Frankfurt am Main
+    state: null
+    post_code: 60313
+    country: Germany
+    region: emea
+  - street: Krucza 50
+    street_two: null
+    city: Warsaw
+    state: null
+    post_code: 00-024
+    country: Poland
+    region: emea
+  - street: Calle Goya, 9 Segundo Izquierda
+    street_two: null
+    city: Madrid
+    state: null
+    post_code: 28001
+    country: Spain
+    region: emea
+  - street: 1725 Hughes Landing Boulevard
+    city2: The Woodlands
+    city: Houston
+    post_code: 77380
+    street_two: null
+    state: TX
+    region: north_america
+    country: USA
+  - street: Weesperstraat 61-105
+    street_two: null
+    city: Amsterdam
+    state: AM
+    post_code: 1018VN
+    country: Netherlands
+    region: emea
+  - street: Weena Zuid 130
+    street_two: null
+    city: Rotterdam
+    state: null
+    post_code: 3012 NC
+    country: Netherlands
+    region: emea
+  - street: Havnegade 39
+    street_two: null
+    city: Copenhagen
+    state: null
+    post_code: "1058"
+    country: Denmark
+    region: emea
+  - street: 777 6th St NW
+    custom_title: Washington D.C.
+    city: Washington
+    post_code: 20001
+    street_two: null
+    state: D.C.
+    region: north_america
+    country: USA
+  - street: 323 N Washington Ave
+    custom_title: Minneapolis
+    city: Minneapolis 
+    post_code: 55401
+    street_two: null
+    state: MN
+    region: north_america
+    country: USA
+  - street: 889-41 Daechi-dong
+    city: Seoul
+    post_code: "06192"
+    street_two: Gangnam-gu,
+    state: null
+    region: apac
+    country: South Korea
+    force_two_lines: true
+  - street: 120 Spencer Street
+    street_two: null
+    city: Melbourne
+    state: VIC
+    post_code: "3000"
+    country: Australia
+    region: apac
+  - street: 930 Route des Dolines
+    street_two: null
+    city: Sophia Antipolis
+    state: Valbonne
+    post_code: "06560"
+    country: France
+    region: emea
+  - street: 15 Rue des Cuirassiers
+    street_two: null
+    city: Lyon
+    state: null
+    post_code: "69003"
+    country: France
+    region: emea
+  - street: 4 Rue Voltaire
+    street_two: null
+    city: Nantes
+    state: null
+    post_code: "44000"
+    country: France
+    region: emea
+  - street: Av. Paulista, 1374 Bela Vista
+    street_two: null
+    city: São Paulo
+    state: SP
+    post_code: 01310-100
+    country: Brazil
+    region: latam
+  - street: 175 Pitt St
+    city: Sydney
+    state: NSW
+    post_code: 2000
+    country: Australia
+    region: apac
+    headquarter: 
+      type: regional
+      desktop_image: sydney_v2.png
+      mobile_image: sydney_v2.png
+  - street: Via Fratelli Cairoli, 24
+    city: Perugia
+    state: PG
+    post_code: 6125
+    country: Italy
+    region: emea
