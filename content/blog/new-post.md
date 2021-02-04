@@ -3,7 +3,6 @@ author = []
 categories = []
 date = 2021-02-05T05:00:00Z
 description = "This is a test post "
-draft = true
 image = "/images/2020-three-quarters-4.png"
 tags = []
 title = "New Post"
