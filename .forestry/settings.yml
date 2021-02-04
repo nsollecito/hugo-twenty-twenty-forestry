@@ -22,8 +22,6 @@ sections:
 - type: document
   path: data/offices.yaml
   label: offices
-  match: "**/*"
-  read_only: false
 - type: directory
   path: content/about
   label: About
