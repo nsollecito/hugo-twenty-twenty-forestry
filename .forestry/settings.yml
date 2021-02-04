@@ -20,8 +20,8 @@ sections:
 - type: heading
   label: Others Pages
 - type: document
-  path: data/offices.yaml
-  label: offices
+  path: data/offices.json
+  label: Offices
 - type: directory
   path: content/about
   label: About
