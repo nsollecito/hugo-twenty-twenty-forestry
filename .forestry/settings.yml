@@ -19,6 +19,11 @@ sections:
   - post
 - type: heading
   label: Others Pages
+- type: document
+  path: data/offices.yaml
+  label: offices
+  match: "**/*"
+  read_only: false
 - type: directory
   path: content/about
   label: About
