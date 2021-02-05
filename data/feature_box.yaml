@@ -1,0 +1,1008 @@
+---
+features:
+  -
+    description: "If you send it, Datadog can alert on it:<br/><ul class='dashed'> <li>Application and system metrics</li> <li>Up/down status checks</li> <li>Custom metrics via StatsD</li> <li>Discrete events</li> <li>Network checks</li> <li>Metrics from running processes</li> <li>Evaluations of multiple alert triggers</li></ul>"
+    image: 1-alert-dash.png
+    name: alert-on-metrics-events-more
+    title: "Alert on metrics, events + more"
+  -
+    description: "VMs and containers come and go. Monitor them at a higher level:<br/><ul class='dashed'> <li>Alert on the health of an entire service</li> <li>Aggregate metrics by any combination of tags: region, role, environment, etc.</li> <li>Dynamic groups include new hosts and containers automatically</li> <li>Exclude any segment of your infrastructure from an alert</li></ul>"
+    image: 2-host-map-honeycomb.png
+    link_text: "LEARN MORE"
+    link_url: "https://docs.datadoghq.com/agent/tagging/"
+    name: alert-on-services-or-individual-hosts
+    title: "Alert on services or individual hosts"
+  -
+    description: "Datadog can recognize any kind of trouble in your systems:<br/><ul class='dashed'> <li>Metrics crossing into unacceptable ranges</li> <li>Unexpected changes or trends</li> <li>Machine learning algorithm automatically detects temporal anomalies</li> <li>Visualize and forecast a metric's expected trend to specify how far in advance you want to get alerted</li> <li>Automated outlier detection</li> <li>Configurable “no data” alerts for missing data</li></ul>"
+    image: 3-outlier.png
+    name: thresholds-outliers-anomalies-forecasting-changes
+    title: "Thresholds, outliers, anomalies, forecasting, changes"
+  -
+    description: "Create drag-and-drop dashboards to graph, analyze, correlate, and compare performance metrics and events."
+    image: ProductVideoDashboard_HD.jpg
+    link_text: "LEARN MORE"
+    link_url: "https://www.datadoghq.com/product/platform/dashboards/"
+    name: default-visibility
+    title: "Real-time visibility"
+  -
+    description: "Datadog auto-enrolls, tags, and aggregates data from new hosts as your cloud infrastructure grows."
+    image: lpghostmap.png
+    name: default-cloud-scale
+    title: "Built for cloud-scale"
+  -
+    description: "Collaborate on events and outages in real-time. Reference historical conversations to understand how an issue evolved."
+    image: Collab_img.png
+    name: default-collaboration
+    title: Collaboration
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Java, Go, Python, Ruby, Node, .NET, or PHP apps processing single operations</li> <li>Identify bottlenecks in your apps with full latency breakdowns</li> <li>Drill down into flame graphs for request-level details</li></ul>"
+    image: scalable-metadata-tracing.png
+    name: default-tracing
+    title: "Tracing to visualize your apps’ performance"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li> <li>Add context to your alerts and notify team members through Slack, PagerDuty, and other tools</li> <li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: dd_monitor_cassandra.png
+    link_text: "LEARN MORE"
+    link_url: "https://www.datadoghq.com/product/platform/alerts/"
+    name: default-alerts
+    title: Alerts
+  -
+    description: "Share what you saw, write what you did"
+    image: products/product/homepage-snapshot-v1.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: collaboration
+    title: Collaboration
+  -
+    description: "Datadog auto-enrolls, tags, and aggregates data from new hosts as your cloud infrastructure grows"
+    image: lpghostmap.png
+    name: cloud-scale
+    title: "Built for cloud-scale"
+  -
+    description: "Install the Datadog agent through our Azure Extension to auto-enroll, tag and aggregate data from new hosts as your cloud infrastructure grows. <br><br>Integrate directly with Azure Monitor to collect metrics from the rest of your Azure infrastructure."
+    image: dd_agent_41.png
+    name: cloud-scale-azure
+    title: "Built for cloud-scale"
+  -
+    description: "Your services matter, but individual containers probably don't. Datadog auto-discovers, tags, and aggregates service-level metrics as your infrastructure changes."
+    image: docker-dash-1.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: cattle
+    title: "Cattle, not pets"
+  -
+    description: "Create drag-and-drop dashboards to graph, analyze, correlate, and compare performance metrics and events"
+    image: kubernetes.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: visibility-kubernetes
+    title: "Real-time visibility"
+  -
+    description: "Datadog won't panic when containers scale down but the service is healthy. Instead it can alert on thresholds or rates of change for service-level metrics."
+    image: sqlserver-alerting-4.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: alerting
+    title: Alerting
+  -
+    description: "See system metrics about each host alongside metrics from each of its containers."
+    image: kubernetes.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: containers
+    title: "Hosts + containers"
+  -
+    description: "Unify CloudWatch metrics and CloudTrail logs, allowing for correlation analysis."
+    image: Unite-Cloudwatch-Cloudtrail-v41.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: cloudwatch
+    title: "Unite CloudWatch & CloudTrail"
+  -
+    description: "Discover and monitor all your AWS services including EC2, ELB, EBS, ElastiCache, RDS, and more."
+    image: ec2_dashboard_1024x575.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: autodiscovery
+    title: "AWS auto-discovery"
+  -
+    description: "Use your AWS tags to combine metrics from instances that work together."
+    image: lpghostmap.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: aggregate
+    title: "Aggregate AWS metrics"
+  -
+    description: "Access your performance data for 15 months at full granularity."
+    image: Historical-Data-v03.gif
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: retain
+    title: "Retain historical data"
+  -
+    description: "Create drag-and-drop dashboards to graph, analyze, and correlate metrics and events."
+    image: Unite-Cloudwatch-Cloudtrail-v4.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: insights
+    title: "Real-time insights"
+  -
+    description: "Discover and monitor all your AWS services including EC2, ELB, EBS, ElastiCache, RDS, and more."
+    image: AWS_dashboard.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: seamless
+    title: "Seamless AWS integration"
+  -
+    description: "Set alerts on latency thresholds, error counts, outliers, and more."
+    image: 1-alert-dash.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: advanced
+    title: "Advanced alerting"
+  -
+    description: "Know about chef-client failures, plus Chef timings and resources used. The default dashboard to the right comes out of the box already baked."
+    image: chef-lp-masthead.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: monitor-chef
+    title: "Monitor your automation"
+  -
+    description: "Chef can tell Datadog to monitor any software it manages. Set once, forget, scale = win!"
+    image: Landing-Features-Total-Infrastructure-Awareness.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: automated-monitoring
+    title: "Automated monitoring"
+  -
+    description: "Datadog automatically picks up Chef Roles, Environments, and Tags, combines them with tags from other sources like AWS so you can start slicing your metrics immediately."
+    image: lpghostmap.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: almost
+    title: "Almost no setup"
+  -
+    description: "Overlay CloudTrail data on any graphs to quickly spot problematic events."
+    image: /Unite-Cloudwatch-Cloudtrail-v4.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: fullstack-visibility
+    title: "Full-stack visibility"
+  -
+    description: "Don't rely on ad hoc NGINX monitoring and metric spot checks. Get high-resolution, continuous metrics with Datadog."
+    image: lpg_nginxdash.png
+    link_text: "View all features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: visibility-nginx
+    title: "Real-time visibility"
+  -
+    description: "Discover and monitor all of your GCP services including GCE, GAE, CloudSQL, BigQuery, and more."
+    image: gce-dashboard.png
+    link_text: "View all features"
+    link_url: "https://www.datadoghq.com/product/"
+    name: visibility-gcp
+    title: "Real-time visibility"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Java, Go, Python, Ruby, Node, .NET, or PHP apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: scalable-metadata-tracing.png
+    name: apm_open_instrumentation
+    title: "Tracing to visualize your apps’ performance"
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: apm_tracing
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Collaborate using Slack, PagerDuty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: apm_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Python apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: scalable-metadata-tracing.png
+    name: python_open_instrumentation
+    title: "Tracing to visualize your Python performance"
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: python_gap_free
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: python_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "The Datadog APM Agent is open source, with support for Python tools like Django, Flask, and Falcon, plus an API for custom tracing."
+    image: python.png
+    name: python_alerting
+    title: "Framework support"
+  -
+    description: "<ul class='dashed'><li>Determine whether issues originate in your apps or infrastructure</li><li>Instrument, analyze, and alert on custom metrics in your apps with StatsD</li><li>Gain visibility into external services</li></ul>"
+    image: realtimevisibility_LP.png
+    name: python_alerting_errors
+    title: "Visibility into your apps, infrastructure, and other services"
+  -
+    description: "<ul class='dashed'><li>Instrument request tracing using the OpenTracing API</li><li>Track time spent by your Go apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: scalable-metadata-tracing.png
+    name: go_open_instrumentation
+    title: "Tracing to visualize your Go performance "
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: go_gap_free
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: go_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "The Datadog APM Agent is open source, with support for Go tools like Gin, Gorilla, Mux, plus an API for custom tracing."
+    image: go-apm-docs.png
+    name: go_alerting
+    title: "Framework support"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Ruby apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: scalable-metadata-tracing.png
+    name: ruby_open_instrumentation
+    title: "Tracing to visualize your Ruby performance "
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: ruby_gap_free
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: ruby_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "The Datadog APM Agent is open source, with support for Ruby tools like Rack, Rails and Sinatra, plus an API for custom tracing."
+    image: ruby.png
+    name: ruby_alerting
+    title: "Framework support"
+  -
+    description: "<ul class='dashed'><li>Trace multi-host, multi-service requests through all of your endpoints</li><li>Drill down with flame graphs across all of your off-the-shelf and custom services</li><li>Trace through microservices within dev, staging, and prod environments</li></ul>"
+    image: Full-Stack%20Observability.png
+    name: comp_scalable
+    title: "Request tracing for dynamic infrastructure"
+  -
+    description: "<ul class='dashed'><li>Combine and view metrics from different sources side by side</li><li>Create drag-and-drop widgets for customized graphs</li><li>Apply mathematical functions and manipulate queries with JSON,<br> API, or UI </li></ul>"
+    image: Screen-Shot-2017-02-13-at-11.17.45-AM2x.png
+    name: comp_dynamic_infrastructure
+    title: "Analyze data with flexible dashboarding"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: comp_grab_free
+    title: "Multi-faceted Alerting"
+  -
+    description: "<ul class='dashed'><li>Trace requests from end-to-end in your Java, Go, Python, Ruby, Node, .NET, or PHP apps</li> <li>Identify performance bottlenecks with full latency breakdowns</li> <li>Instrument your code with extensible, open source client libraries</li></ul>"
+    image: scalable-metadata-tracing.png
+    name: ubuntu-tracing
+    title: "Monitor and troubleshoot app performance"
+  -
+    description: "<ul class='dashed'><li>Create drag-and-drop dashboards to graph, analyze, and correlate metrics and events</li> <li>Track app performance alongside detailed system metrics from your Linux hosts </li> <li>Monitor in real time or explore historical metrics at full granularity</li></ul>"
+    image: realtimevisibility_LP.png
+    name: ubuntu-visibility
+    title: "Real-time visibility"
+  -
+    description: "<ul class='dashed'><li>Use tags to make sense of millions of processes and filter to see what you care about</li><li>Collect process metrics at 2 second resolution</li><li>Monitor process states: zombie, running, stopped, or sleeping</li></ul>"
+    image: ProcessMonitroingsTest.png
+    name: process_monitoring
+    title: "Process Monitoring"
+  -
+    description: "Develop custom processing pipelines to automatically parse and enrich raw logs to extract the most value from your data across your entire infrastructure."
+    image: processandenrichlogs.png
+    name: enrich-logs
+    title: "Process and enrich raw logs at scale"
+  -
+    description: "Visualize and explore collected logs using intuitive, facet-driven navigation designed for outage responders, and seamlessly connect logs with host metrics and application data."
+    image: logs-investigate-and-troubleshoot-2018.png
+    name: visibility-logs
+    title: "Quickly investigate and troubleshoot issues"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Java apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: java_flamegraph.png
+    name: java_open_instrumentation
+    title: "Tracing to visualize your Java performance"
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: java_gap_free
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: java_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "The Datadog APM Agent is open source, with support for Java tools like Spring Boot and Dropwizard, plus an API for custom tracing."
+    image: java.png
+    name: java_alerting
+    title: "Framework support"
+  -
+    description: "<ul class='dashed'><li>Determine whether issues originate in your apps or infrastructure</li><li>Instrument, analyze, and alert on custom metrics in your apps with StatsD</li><li>Gain visibility into external services</li></ul>"
+    image: realtimevisibility_LP.png
+    name: java_alerting_errors
+    title: "Visibility into your apps, infrastructure, and other services"
+  -
+    description: "Easily collect and manage logs across your environment, from apps to hosts, and all of the services in-between."
+    image: logs-investigate-and-troubleshoot-2018.png
+    link_text: "View all Features"
+    link_url: "https://www.datadoghq.com/product/log-management/"
+    name: logs-general
+    title: "Centralized log collection and management"
+  -
+    description: "<ul class='dashed'><li>Seamlessly unites metrics, traces, and logs</li><li>Aggregate metrics and events from 400+ technologies</li><li>Search, analyze, and explore enriched log data</li><li>Trace requests across distributed systems and alert on app performance</li><li>Seamlessly pivot between correlated data for rapid troubleshooting</li></ul>"
+    image: ProductVideoDashboard_HD.jpg
+    name: three_pillars_observability
+    title: "Three pillars of observability in one platform"
+  -
+    description: "<ul class='dashed'><li>Analyze sensor telemetry, machine health, traces, and metrics in a single pane of glass</li> <li>Leverage advanced anomaly detection and forecasting features for predictive maintenance of IoT assets</li> <li>Scale up across hundreds or thousands of devices in minutes</li></ul>"
+    image: dg/iotmonitoring2.png
+    name: iot-features
+    title: "Correlate and alert on data from disparate edge devices and cloud backends"
+  -
+    description: "<ul class='dashed'><li>Capture existing point of sales system data to improve retail experience</li> <li>Alert on the status of inventory and other supply chain assets in real-time</li> <li>Gain actionable insight into complex manufacturing processes</li> <li>Unify disparate data sources to optimize modern utilities</li> <li>Track municipal data to meet the needs of growing urban centers</li></ul>"
+    image: Screen-Shot-2017-02-13-at-11.17.45-AM2x.png
+    name: iot-use-cases
+    title: "Analyze data for any IoT use case using flexible custom metrics"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your Node.js apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: java_flamegraph.png
+    name: node_open_instrumentation
+    title: "Tracing to visualize your Node.js performance"
+  -
+    description: "<ul class='dashed'><li>Drill into each of your apps and services to see number of hits, error rates, and distribution of latency</li><li>Visualize your services aggregated by type</li><li>Analyze all of the endpoints for your services</li></ul>"
+    image: services_by_avg_latency.png
+    name: node_gap_free
+    title: "Overview of application services"
+  -
+    description: "<ul class='dashed'><li>Alert on uptime, thresholds, automatically detected outliers, anomalies, and more</li><li>Add context to your alerts with actionable messages and notify team members through Slack, Pagerduty, and other tools</li><li>Alert on subsets of your data or exclude certain hosts</li></ul>"
+    image: "Screen-Shot-2017-02-15-at-10-56-20-AM.png"
+    name: node_app_obs
+    title: "Multi-faceted alerting"
+  -
+    description: "The Datadog APM Agent is open source, with support for Node.js tools like Express, plus an API for custom tracing."
+    image: java.png
+    name: node_alerting
+    title: "Framework support"
+  -
+    description: "Slice and dice APM data by tags and request attributes.<ul class='dashed'><li>Quickly find traces that match a particular customer, error code, any custom tag</li><li>Ensure your 10 most valuable customers have a high-quality experience on your applications</li><li>Break down latency with end-to-end flame graphs</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: trace_search
+    title: "Identify needle-in-the-haystack issues with App Analytics"
+  -
+    description: "Send and process every log produced by your applications and infrastructure.<ul class='dashed'><li>Ingest everything and decide what to index dynamically with filters</li><li>Observe everything in real time with Live Tail, without the need to index</li><li>Archive everything—all history centrally stored with nothing left behind on servers</li></ul>"
+    video: log-complete-coverage-1.mp4
+    image: log-complete-coverage-1.png
+    name: logging_without_limits
+    title: "Logging without Limits&trade;"
+  -
+    description: "Datadog is scalable, extensible, and easily automated to reduce overhead and ensure the right data is accessible to everyone who needs it.<ul class='dashed'><li>Use machine-learning-based Watchdog to auto-detect and surface anomalies with zero configuration</li><li>Reduce dozens of dashboards to just one template - instantly re-scope by customer, endpoint, or any other tag</li><li>Build drag-and-drop performance dashboards or automate dashboarding via API</li></ul>"
+    image: apm-metrics.png
+    video: watchdog_feed-compressed.mp4
+    name: advanced_alerting
+    title: "Scalable, automated monitoring with Watchdog"
+  -
+    description: "Datadog is built to support live root-cause analysis to reduce resolution time and help teams release features more quickly.<ul class='dashed'><li>Automatically map data flows and cluster services based on their interdependencies in real-time</li><li>Investigate service disruptions by isolating the services that interact with the application of interest</li><li>One-click navigation from global alerts to relevant traces, logs, and infrastructure metrics</li></ul>"
+    image: servicemapstatic.png
+    video: view-traces2-compressed.mp4
+    name: service_map
+    title: "Navigate applications seamlessly with the Service Map"
+  -
+    description: "<ul class='dashed'><li>Automatically map data flows and cluster services based on their interdependencies in real-time</li><li>Investigate service disruptions by isolating services and their dependencies</li><li>One-click navigation from global alerts to relevant traces, logs, and infrastructure metrics</li></ul>"
+    image: servicemapstatic.png
+    video: view-traces2-compressed.mp4
+    name: microservices_service_map
+    title: "Navigate microservices seamlessly with the Service Map"
+  -
+    description: "<ul class='dashed'><li>Datadog application performance monitoring (APM) allows you to trace calls across distributed services and hosts</li><li>Drill down from a global overview to a single customer’s request using App Analytics</li><li>Seamlessly correlate application performance to logs and underlying infrastructure metrics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: microservices_apm
+    title: "Collect, search, and analyze traces across distributed architectures"
+  -
+    description: "<ul class='dashed'><li>400+ Datadog supported integrations including Kubernetes, Docker, and Istio</li><li>Automatically trace across many popular libraries and frameworks for Go, Java, Python, Ruby, Node, .NET, and PHP</li><li>Autodiscover services and metrics in your Kubernetes cluster</li></ul>"
+    image: kubernetes.png
+    name: microservices_dashboards
+    title: "Start monitoring your microservices in minutes"
+  -
+    description: "<ul class='dashed'><li>Out of the box support for Fargate, Kubernetes, Docker, ECS, and more</li><li>Analyze and explore all of your containers on the fly through the Container Map</li><li>Gain insight into the status and performance of all your containers in real time with our Live Container View</li></ul>"
+    video: https://datadog-prod.imgix.net/img/blog/introducing-live-container-monitoring/_table_24.mp4
+    name: microservices_containers
+    title: "Monitor your dynamic container environment"
+  -
+    description: "<ul class='dashed'><li>Reduce alert noise by using flexible, boolean combinations of alert conditions</li><li>Improve signal-to-noise ratio with our machine learning based algorithms like Anomaly Detection</li><li>Proactively treat issues using our robust metric forecasting</li></ul>"
+    image: _resized_landingpage_anomaly-detection_featureboxes_20190115.png
+    name: alerts-reduce
+    title: "Create alerts that are worth waking up for"
+  -
+    description: "<ul class='dashed'><li>Route your alerts to the right people using our integrations with Slack, Pagerduty, and more</li><li>Create markdown-enabled alert messages for more context when troubleshooting</li><li>Automate remediation steps for alerts using our webhook integration</li></ul>"
+    image: alerts-slack2.jpg
+    video: alerts-slack2-comp.mp4
+    name: alerts-actionable
+    title: "Make sure every triggered alert is actionable"
+  -
+    description: "<ul class='dashed'><li>Create alerts on a wide variety of metrics, events, processes, and more</li><li>Monitor the individual performance of thousands of hosts using a single alert</li><li>Stay on top of unforeseen issues with Watchdog, which surfaces all application anomalies in your system</li></ul>"
+    image: _resized_landingpage_featureboxes_watchdog_20190115.png
+    video: watchdog_feed-compressed.mp4
+    name: alerts-available
+    title: "Be alerted on poor user experience, unexpected system behavior, and downtime"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your .NET apps processing each operation</li><li>Quickly understand your application request volume, error rate, and latency percentiles</li><li>Automatic tracing for common .NET web frameworks</li></ul>"
+    image: java_flamegraph.png
+    name: dotnet_open_instrumentation
+    title: "Tracing to visualize your .NET performance"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your PHP apps processing each operation</li><li>Quickly understand your application request volume, error rate, and latency percentiles</li><li>Automatic tracing for common PHP web frameworks</li></ul>"
+    image: java_flamegraph.png
+    name: php_open_instrumentation
+    title: "Tracing to visualize your PHP performance"
+  -
+    description: "The Datadog APM Agent is open source, with support for PHP tools like Laravel, Symfony, Drupal, and Zend, plus an API for custom tracing."
+    image: phpframeworks.png
+    name: php_framework
+    title: "PHP framework support"
+  -
+    description: "<ul class='dashed'><li>Modify, clone, and share dashboards in seconds</li><li>Drag and drop a plethora of flexible widgets to visualize your data</li><li>Overlay events on graphs to understand their impact on your system</li><li>Seamlessly pivot between correlated data for rapid troubleshooting</li></ul>"
+    image: azure_screenshot.png
+    name: Azure_dashboards
+    title: "Out-of-the-box dashboards for your cloud provider, databases, or any of our 400+ integrations"
+  -
+    description: "<ul class='dashed'><li>Manage your SLAs and SLOs</li><li>Know when your service goes down before your users experience problems</li><li>Sophisticated alerting conditions to reduce alert fatigue</li></ul>"
+    image: world_map_synthetics.png
+    video: world_map_synthetics.mp4
+    name: synthetics_api_check
+    title: "Set up monitors of critical endpoints from multiple locations"
+  -
+    description: "<ul class='dashed'><li>Reduce mean time to resolution with unified visibility across your stack</li><li>See application level traces, infrastructure metrics and logs in a single pane of glass</li><li>Visualize uptime data alongside key business metrics in the same dashboard</li></ul>"
+    image: syntheticsfullstackvisib2x.jpg
+    name: synthetics_api_3pillars
+    title: "Full-stack visibility in a single place"
+  -
+    description: "Monitor all of your Azure services including VMs, SQL DBs, App Services, Functions, Load Balancers, and dozens of others with our standard Azure integration."
+    image: dd_azure_azure_dashboard_2.png
+    name: azure_dashboards_enterprise
+    title: "Monitor Your Enterprise Azure Infrastructure"
+  -
+    description: "<ul class='dashed'><li>Track time spent by your .NET, Python, Java, Go, Node, Ruby, or PHP apps processing single operations</li><li>Identify bottlenecks in your apps with full latency breakdowns</li><li>Drill down into flame graphs for request-level details </li></ul>"
+    image: java_flamegraph.png
+    name: azure_app_open_instrumentation
+    title: "Tracing to visualize your apps' performance"
+  -
+    description: "<ul class='dashed'><li>Discover log patterns and errors rapidly without the need to investigate and read every individual log file</li><li>Create log analytics dashboards in seconds with Datadog’s drag-and-drop capabilities</li><li>Analyze all your logs without the need to learn or use a query language</li></ul>"
+    image: logs-realtime-analytics-2018.png
+    name: log-analytics
+    title: "Easily manage your logs with an intuitive platform"
+  -
+    description: "<ul class='dashed'><li>Automatically detect unanticipated outliers, anomalies, and log errors</li><li>Set up alerts for anomalies and outliers that account for daily, weekly, or seasonal fluctuations</li><li>Create composite alerts, based on boolean logic, to reduce your time spent responding to spurious alerts</li><li>Add context to your alerts and notify team members through Slack, PagerDuty, and other tools</li></ul>"
+    image: logs-intelligent-monitors-alerts-2018.png
+    name: alerts-logs
+    title: "Receive smarter alerts powered by machine learning"
+  -
+    description: "<ul class='dashed'><li>Seamlessly unite metrics, traces, and logs</li><li>Troubleshoot more rapidly with one-click pivots across related data</li><li>Break down information silos to accelerate development and modernization projects</li></ul>"
+    image: ProductVideoDashboard_HD.jpg
+    name: 3pillars
+    title: "Three pillars of observability in one platform"
+  -
+    description: "<ul class='dashed'><li>Aggregate metrics and events from 400+ integrated technologies</li><li>Slice and dice metrics originating from any source using tags</li><li>Store data for a full 15 month retention period at up to one second granularity</li></ul>"
+    image: lpghostmap.png
+    video: hostmapLP_2_comp.mp4
+    name: infra-lpg
+    title: "Gain complete visibility into cloud-scale infrastructure"
+  -
+    description: "<ul class='dashed'><li>Collect, search, and analyze traces across fully distributed architectures</li><li>Manage performance issues down to the individual user level with infinite cardinality tagging</li><li>Automatically map data flows and dependencies with the service map</li></ul>"
+    image: servicemapstatic.png
+    video: view-traces2-compressed.mp4
+    name: apm-lpg
+    title: "Analyze application performance for any user"
+  -
+    description: "<ul class='dashed'><li>Quickly search and analyze logs without learning a query language</li><li>Affordably collect 100% of your logs with nothing left behind</li><li>Associate logs related to specific traces or infrastructure spikes in one click</li></ul>"
+    video: log-complete-coverage-1.mp4
+    image: log-complete-coverage-1.png
+    name: logs-lpg
+    title: "Instantly find all the logs you need in one place"
+  -
+    description: "<ul class='dashed'><li>Optimize performance with detailed full-stack breakdowns from synthetic users</li><li>Detect and address localized regional outages across the globe</li><li>Visualize live and historical performance for service-level agreements</li></ul>"
+    image: world_map_synthetics.png
+    video: world_map_synthetics.mp4
+    name: synthetics-lpg
+    title: "Ensure availability across the globe with synthetics"
+  -
+    description: "<ul class='dashed'><li>Automatic detection of outliers and anomalies across metrics, traces, and logs</li><li>Manage alerts in Slack, PagerDuty, and other communication tools</li><li>Set up alerts in seconds with a simple point-and-click interface or via the API</li></ul>"
+    image: _resized_landingpage_featureboxes_watchdog_20190115.png
+    video: watchdog_feed-compressed.mp4
+    name: alerts-lpg
+    title: "Reduce alert fatigue with machine learning"
+  -
+    description: "Monitor all of your Alibaba Cloud services including Elastic Compute Service (ECS), Load Balancers, and DBs (including ApsaraDB) with our standard Alibaba Cloud integration."
+    image: monitor-alibaba-cloud-dashboard.png
+    name: alibaba-monitor
+    title: "Gain complete visibility into your Alibaba Cloud infrastructure"
+  -
+    description: "Install the Datadog agent on your Alibaba Cloud virtual servers and automatically tie together metrics and tags from each cloud instance. Then, start exploring a unified view of your dynamic Alibaba Cloud infrastructure with a real-time host map."
+    image: monitor-alibaba-cloud-datadog-agent_tie.png
+    name: alibaba-scale
+    title: "Start monitoring in minutes"
+  -
+    description: "<ul class='dashed'><li>Optimize and monitor Ruby performance to meet service level agreements</li><li>Identify dependencies with the automatically generated Service Map</li><li>Troubleshoot Ruby issues at the application, endpoint, and customer-level with App Analytics</li></ul>"
+    image: servicemapstatic.png
+    video: metric-query-compressed.mp4
+    name: ruby-troubleshooting
+    title: "Full-stack monitoring for Ruby applications"
+  -
+    description: "<ul class='dashed'><li>Quickly debug issues with Ruby tracing that highlights errored requests and functions in the trace view</li><li>Automatically correlate Ruby stack traces and logs for rapid root cause analysis with TraceID</li><li>Identify and fix issues before they grow by tracking errors and abnormal behavior with Log Patterns and Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: ruby-tracing
+    title: "Search and analyze Ruby stack traces"
+  -
+    description: "<ul class='dashed'><li>Automatically instrument your applications for popular Ruby frameworks like Rails and Sinatra</li><li>Identify high latency Ruby requests for databases like MongoDB or Elasticsearch</li><li>Monitor Ruby applications alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: ruby-frameworks
+    title: "Built-in support for Ruby frameworks and libraries"
+  -
+    description: "<ul class='dashed'><li>Monitor and optimize Python performance to meet service level agreements</li><li>Identify Python application dependencies with the automatically generated Service Map</li><li>Troubleshoot Python issues at the application, endpoint, and customer-level with App Analytics</li></ul>"
+    image: servicemapstatic.png
+    video: metric-query-compressed.mp4
+    name: python-monitoring
+    title: "Full-stack Python performance monitoring"
+  -
+    description: "<ul class='dashed'><li>Search Python stack traces to highlight errored requests and functions in the trace view</li><li>Automatically correlate Python data from traces and logs for rapid root cause analysis with TraceID</li><li>Identify issues before they escalate by monitoring Python errors with Log Patterns and Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: python-tracing
+    title: "Debug issues with Python tracing and analytics"
+  -
+    description: "<ul class='dashed'><li>Get started quickly with built-in support for Python frameworks like Django and Flask</li><li>Troubleshoot Python queries impacting performance for databases like MongoDB or Elasticsearch</li><li>Monitor Python applications alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: python-frameworks
+    title: "Automatically instrument applications for popular Python frameworks"
+  -
+    description: "<ul class='dashed'><li>Optimize Golang performance to meet service level agreements</li><li>Track Golang application dependencies with the automatically generated Service Map</li><li>Monitor Golang performance at the application, endpoint, and customer-level with App Analytics</li></ul>"
+    image: servicemapstatic.png
+    video: metric-query-compressed.mp4
+    name: golang-monitoring
+    title: "Next-gen monitoring for Golang functions and applications"
+  -
+    description: "<ul class='dashed'><li>Search, identify, and analyze errored requests and Golang functions in the trace view</li><li>Automatically correlate Golang stack traces and logs for rapid root cause analysis with TraceID</li><li>Identify and fix issues before they grow by tracking Golang data with Log Patterns and Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: golang-tracing
+    title: "Quickly debug application performance with Golang tracing"
+  -
+    description: "<ul class='dashed'><li>Automatically configure applications for popular Golang frameworks like Mux and Gin</li><li>Identify slow performing Golang queries for databases like MongoDB or Elasticsearch</li><li>Monitor Golang applications alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: golang-frameworks
+    title: "Built-in support for Golang frameworks"
+  -
+    description: "<ul class='dashed'><li>Track, optimize, and alert on Java performance issues to meet important SLAs and SLOs</li><li>Pinpoint Java application dependencies with the automatically generated Service Map</li><li>Monitor Java at the service, endpoint, and customer-level with App Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: java-monitoring
+    title: "Modern monitoring and tracing for Java applications"
+  -
+    description: "<ul class='dashed'><li>Set up actionable alerts for uptime, thresholds, outliers, anomalies, and more</li><li>Combine trigger conditions to create composite Java alerting that reduces alert fatigue</li><li>Add context to Java alert notification emails and messages from collaboration tools like Slack and Pagerduty</li></ul>"
+    image: apm-ruby-railstrace.png
+    video: metric-query-compressed.mp4
+    name: java-alerting
+    title: "Intelligent Java alerting and debugging"
+  -
+    description: "<ul class='dashed'><li>Instrument apps for popular Java frameworks like Spring Boot and Dropwizard automatically</li><li>Identify slow performing Java queries for databases like MongoDB or Cassandra</li><li>Monitor Java metrics alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: java-frameworks
+    title: "Built-in support for Java frameworks"
+  -
+    description: "<ul class='dashed'><li>Collect and monitor Node.js performance metrics to meet service level agreements</li><li>Visualize the services affected by a triggered Node.js alert with the Service Map</li><li>Troubleshoot Node.js at the application, endpoint, and customer-level with App Analytics</li></ul>"
+    image: servicemapstatic.png
+    video: metric-query-compressed.mp4
+    name: node-monitoring
+    title: "Node.js monitoring for your entire stack"
+  -
+    description: "<ul class='dashed'><li>Analyze Node.js stack traces with errored requests and functions in the trace view</li><li>Identify root causes by automatically correlating Node.js trace data and logs with TraceID</li><li>Fix issues before they escalate by tracking Node.js errors with Log Patterns and Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: node-tracing
+    title: "Analyze Node.js traces to resolve performance issues"
+  -
+    description: "<ul class='dashed'><li>Get started quickly with built-in support for Node.js frameworks like Express or Paperplane</li><li>Identify slow Node.js queries impacting performance for databases like MongoDB or MySQL</li><li>Monitor Node.js metrics alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: node-frameworks
+    title: "Instrument apps for Node.js frameworks and libraries"
+  -
+    description: "<ul class='dashed'><li>Optimize and monitor .NET performance to meet SLAs and SLOs</li><li>Identify .NET application dependencies with the automatically generated Service Map</li><li>Troubleshoot .NET at the service, endpoint, and customer-level with App Analytics</li></ul>"
+    image: servicemapstatic.png
+    video: metric-query-compressed.mp4
+    name: net-monitoring
+    title: "Full-stack .NET monitoring and analytics"
+  -
+    description: "<ul class='dashed'><li>Search and filter .NET stack traces to highlight errored requests and functions in the trace view</li><li>Identify the root cause of problems by automatically correlating .NET trace data and logs with TraceID</li><li>Proactively track and solve .NET performance issues with Log Patterns and Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: net-tracing
+    title: "Debug apps with .NET tracing and logs"
+  -
+    description: "<ul class='dashed'><li>Instrument .NET applications for popular web frameworks like ASP.NET MVC or ASP.NET Core MVC</li><li>Automatically configure the .NET Tracer for the .NET Framework and .NET Core runtimes</li><li>Monitor .NET metrics, traces, and logs alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: net-frameworks
+    title: "Auto-instrumentation for .NET frameworks and runtimes"
+  -
+    description: "<ul class='dashed'><li>Optimize PHP performance and quickly troubleshoot issues to meet SLAs and SLOs</li><li>Pinpoint disruptions in your PHP services with the automatically generated Service Map</li><li>Monitor PHP at the application, endpoint, and user-level with App Analytics</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: php-monitoring
+    title: "Comprehensive PHP performance monitoring"
+  -
+    description: "<ul class='dashed'><li>Surface unknown issues with Watchdog or configure smart PHP alerts for outliers, anomalies, and more</li><li>Combine trigger conditions to create composite PHP alerting that reduces alert fatigue using Boolean logic</li><li>Add actionable context to notifications from collaboration tools like Slack and Pagerduty</li></ul>"
+    image: apm-ruby-railstrace.png
+    video: metric-query-compressed.mp4
+    name: php-alerting
+    title: "Machine learning assisted PHP alerting"
+  -
+    description: "<ul class='dashed'><li>Configure applications for popular PHP frameworks like Laravel, Zend, and Symfony</li><li>Auto-instrument apps for common PHP libraries like cURL, Guzzle, and PDO</li><li>Monitor PHP applications alongside data from 400+ other turnkey integrations</li></ul>"
+    image: apm-ruby-grid.png
+    name: php-frameworks
+    title: "Built-in PHP framework and library support"
+  -
+    description: "Alert on the global performance and availability of your endpoints. <ul class='dashed'><li>Validate HTTP requests to your services from multiple locations</li><li>Monitor and maintain your SLAs</li><li>Resolve issues quickly with unified traces, metrics, and logs</li></ul>"
+    image: world_map_synthetics.png
+    video: world_map_synthetics.mp4
+    name: synthetics_api_tests
+    title: "Proactively monitor website availability and uptime"
+  -
+    description: "Ensure that important user experiences are preserved with fully hosted, automated tests. <ul class='dashed'><li>Discover front-end issues such as Javascript or network errors instantly</li><li>Analyze performance by location or device with waterfall visualization</li><li>Investigate root causes to troubleshoot performance before users notice with Datadog’s APM integration</li></ul>"
+    image: synthetic_browser_test_190415-1.png
+    name: synthetics_browser_tests
+    title: "Monitor frontend business transactions and user journeys"
+  -
+    description: "Build tests without code. <ul class='dashed'><li>Record user actions via an easy-to-use, GUI-based Web Recorder</li><li>Validate responses with flexible assertions and variables</li><li>Reduce the time it takes to create browser tests and remove technical limitations</li></ul>"
+    video: Browsertest_02-compressed.mp4
+    name: synthetics_web_recorder
+    title: "Create browser tests in minutes with the Web Recorder"
+  -
+    description: "Stay focused on building new features, not fixing brittle tests. <ul class='dashed'><li>Browser Tests update themselves by re-identifying elements even as the UI evolves throughout development</li><li>Eliminate false-positives due to broken tests and create composite alerts</li><li>Minimize time spent updating scripted tests throughout the entire development cycle</li></ul>"
+    video: Browsertest_01.mp4
+    name: synthetics_maintaining_tests
+    title: "Save time with AI-driven, Self-Maintaining tests"
+  -
+    description: "Accelerate development with end-to-end context in a single platform and break down silos. <ul class='dashed'><li> See metrics, traces, and logs in the context of failed tests</li><li>Visualize uptime data alongside key business metrics</li><li>Reduce friction from context switching between various platforms</li></ul>"
+    image: syntheticsfullstackvisib2x.jpg
+    name: synthetics_mttr_visibility
+    title: "Reduce mean time to resolution with full-stack visibility"
+  -
+    description: "<ul class='dashed'><li>Quickly access old logs (from a few weeks or a few months ago) that become extremely valuable for audits</li><li>Decrease the retention period per log index, which will reduce costs</li><li>Retain fewer logs within your platform, which further reduces costs</li></ul>"
+    image: Logs-rehydrating_FeatureBoxLP.png
+    name: Logs_rehydration_from_archives
+    title: "Rehydrate archived logs into indexes"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-python
+    title: "Efficiently troubleshoot and debug Python log issues"
+  -
+    description: "<ul class='dashed'><li>Monitor all aspects of your application architecture from the user interaction to back-end storage - in a single platform</li><li>Easily identify bottlenecks, errors, heavy traffic issues, slow-running queries, and more with end-to-end application tracing, latency breakdowns, stack traces, and flame graphs highlighting errored requests</li><li>Automatically collect, monitor, and visualize high-granularity data and custom metrics in real time, including availability, response times, reliability, error rates, and throughput</li></ul>"
+    image: tracesearch_00000.jpg
+    video: DD_Tracegraph_gif_smaller_02.mp4
+    name: app-visibility
+    title: "Simplify complexity with end-to-end visibility"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name:  investigate-logs-c
+    title: "Efficiently troubleshoot and debug C# log issues"
+  -
+    description: "Monitor key IBM components including the AIX Unix Operating System, IBM MQ, IBM WAS, and DB2 with Datadog's 400+ vendor-backed integrations."
+    image: AIX.png
+    name: ibm-monitoring
+    title: "Monitor your IBM components"
+  -
+    description: "Easily install the Datadog agent on your IBM AIX Power-series hardware and start collecting high-granularity metrics, application traces, and logs. Start monitoring in minutes with out-of-the-box, custom dashboards for IBM MQ, DB2, and IBM WAS."
+    image: ibm-mq-default-dashboard-rev2.png
+    name: ibm-monitoring2
+    title: "Built for cloud-scale"
+  -
+    description: "<ul class='dashed'><li>Discover log patterns and errors rapidly without the need to investigate and read every individual log file</li><li>Visualize and explore collected logs using an intuitive, facet-driven navigation designed for outage responders</li><li>See log data in context with auto-tagging and metric correlation</li></ul>"
+    image: logs-realtime-analytics-2018.png
+    name: logs-benefits
+    title: "Investigate and Troubleshoot Issues Faster"
+  -
+    description: "<ul class='dashed'><li>Analyze all your logs with just a few simple clicks and eliminate the need to learn or use a new query language</li><li>Generate metrics from all your ingested logs right within the UI</li><li>Create real-time log analytics dashboards in seconds with Datadog’s drag-and-drop capabilities</li></ul>"
+    image: logs-investigate-and-troubleshoot-2018.png
+    name: visibility-logs-2
+    title: "Easily Manage Your Logs with an Intuitive Platform"
+  -
+    description: "<ul class='dashed'><li>Collect, process, inspect, and archive all your logs for only $.10/GB; monitor all your ingested logs in real time with Live Tail</li><li>Only pay to index the logs you need</li><li>Quickly access archived logs dating back to any time period with the ability to rehydrate logs into indexes in a few simple clicks</li><li>Significantly reduce the costs associated with the storage of high-volume logs necessary for audit and compliance purposes</li></ul>"
+    video: log-complete-coverage-1.mp4
+    image: log-complete-coverage-1.png
+    name: logs-pricing-benefits
+    title: "Control Costs without Sacrificing Visibility"
+  -
+    description: "<ul class='dashed'><li>Monitor your cloud services, serverless functions, databases, on-premise servers, containers, and more in one place with Datadog’s 400+ vendor-backed integrations</li><li>Create custom, drag-and-drop dashboards within seconds</li><li>Seamlessly navigate between your logs, infrastructure, and application traces all within one platform</li></ul>"
+    image: ProductVideoDashboard_HD.jpg
+    name: inside_any_stack_anywhere
+    title: "See Inside Any Stack, Any App, At Any Scale, Anywhere"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-java
+    title: "Efficiently troubleshoot and debug Java log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-ruby
+    title: "Efficiently troubleshoot and debug Ruby log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-go
+    title: "Efficiently troubleshoot and debug Go log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-dotnet
+    title: "Efficiently troubleshoot and debug .NET log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-php
+    title: "Efficiently troubleshoot and debug PHP log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-laravel
+    title: "Efficiently troubleshoot and debug Laravel log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-mysql
+    title: "Efficiently troubleshoot and debug MySQL log issues"
+  -
+    description: "<ul class='dashed'><li>Correlate request logs with traces automatically and easily isolate all your logs from a single request</li><li>Live tail for real-time bug fixing or code deployment</li><li>Index your logs on the fly, only when you need them</li></ul>"
+    image: logs-header-2018-1.png
+    video: logs-header-2018-1.mp4
+    name: investigate-logs-ubuntu
+    title: "Efficiently troubleshoot Ubuntu log errors"
+  -
+    description: "<ul class='dashed'><li>View all your cloud and on-prem servers from a bird’s eye view; drill into individual hosts with 1 click</li><li>Slice and dice metrics originating from any source using tags</li><li>Monitor your containers as quickly as they are created and destroyed</li><li>Visualize highly-granular data and custom metrics in real time</li></ul>"
+    image: lpghostmap.png
+    video: hostmapLP_2_comp.mp4
+    name: entire-infrastructure
+    title: "Monitor your entire infrastructure more effectively"
+  -
+    description: "<ul class='dashed'><li>Understand performance using meaningful, human-readable tags</li><li>Use tags to filter traffic by source and destination</li><li>Group by anything, from datacenters to teams to individual containers</li><li>Report on key metrics such as traffic volume and TCP retransmits</li></ul>"
+    video: network-tags.mp4
+    name: network_cloud_general
+    title: "Visualize traffic flow in cloud-native environments"
+  -
+    description: "Accelerate cyber security investigations with detailed observability data. <ul class='dashed'><li>Break down information silos between developers, security, and operation teams</li><li>Improve collaboration across your organization with the use of a single, unified, intuitive platform</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: security_for_dynamic_environments
+    title: "Automatically Detect Threats Across Dynamic Cloud Environments"
+  -
+    description: "Enable full security visibility across your applications, network, and infrastructure. <ul class='dashed'><li>Start ingesting security data in minutes with 400+ vendor-backed, built-in integrations including AWS CloudTrail, Okta, and G Suite</li><li>Investigate security threats in a single pane of glass with detailed observability data: metrics, traces, logs, and more</li></ul>"
+    video: logs-main_integration.mp4
+    name: security_integrations
+    title: "Simplify Complexity with End-To-End Visibility"
+  -
+    description: "Detect potential threats across the full stream of ingested observability data in Datadog. <ul class='dashed'><li>Analyze everything without the cost of indexing and retaining all of the data, with Datadog's Without Limits™ platform</li><li>Receive actionable alerts on malicious or anomalous patterns as data is received in real time</li></ul>"
+    image: blog/announcing-security-monitoring/datadog-security-monitoring-lwl-rev.png
+    name: real_time_threat_detection
+    title: "Detect Security Threats in Real Time"
+  -
+    description: "Immediately improve your security posture with out-of-the-box detection rules that automatically flag attacker techniques and misconfigurations. <ul class='dashed'><li>75+ default detection rules, mapped to the MITRE ATT&CK® framework and other compliance frameworks</li><li>Easily create your own custom rules in seconds - without the need to learn a proprietary query language</li></ul>"
+    video: security-detection-rules-compressed.mp4
+    name: out_of_the_box_detection_rules
+    title: "Get Set Up in Minutes with Out-of-the-Box Detection Rules"
+  -
+    description: "Correlate security signals and collaborate on investigations. <ul class='dashed'><li>Rapidly analyze threats and easily filter security signals based on key attributes such as severity level, the MITRE ATT&CK® technique, or any associated entity, such as an attacker’s IP</li><li>Integrate with Slack, PagerDuty, or any collaboration tool to quickly loop in relevant teams for faster investigations</li><li>Retain all security signals for 15 months to correlate them and identify trends over time</li></ul>"
+    video: security-one-platform-compressed.mp4
+    name: analytics_and_collaboration
+    title: "Investigate and Respond to Cyber Threats Faster"
+  -
+    description: "Troubleshoot Cilium issues rapidly. <ul class='dashed'><li>Collect, visualize, and alert on key metrics exposed by the Cilium Agent and Operator - including endpoint regeneration, packet flow, and policy import errors</li><li>Start monitoring Cilium metrics in minutes with an out-of-the-box, customizable analytics dashboard</li></ul>"
+    image: /blog/monitor-cilium-with-datadog/cilium-dashboard-v2.png
+    name: cilium_feature_one
+    title: "Ensure Your Network Policies Are Properly Enforced"
+  -
+    description: "Pinpoint errors in your dynamic containerized infrastructure with ease. <ul class='dashed'><li>Track how many Cilium endpoints are up and running with a high-level view of endpoint health and lifecycle events</li><li>Detect issues with policy imports; ensure that all your security policies are actively running on Cilium-managed containers</li></ul>"
+    video: security-detection-rules-compressed.mp4
+    name: cilium_feature_two
+    title: "Reveal Weak Spots in Your Containerized Environment"
+  -
+    description: "Accelerate cyber security investigations with detailed observability data. <ul class='dashed'><li>Avoid gaps in your security implementation by quickly ensuring that the right number of policies are being enforced<li>Discover missing policies easily; quickly correct policy definitions impacted by import errors</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: cilium_security_for_dynamic_environments
+    title: "Automatically Detect Threats Across Dynamic Cloud Environments"
+  -
+    description: "Enable full security visibility across your applications, network, and infrastructure. <ul class='dashed'><li>Start ingesting security data in minutes with 400+ vendor-backed, built-in integrations including BigQuery, Okta, and G Suite</li><li>Investigate security threats in a single pane of glass with detailed observability data: metrics, traces, logs, and more</li></ul>"
+    video: logs-main_integration.mp4
+    name: security_integrations_gcp
+    title: "Simplify Complexity with End-To-End Visibility"
+  -
+    description: "Dig into your okta security logs; easily search log event types and correlate activity with other Okta log attributes such as the event outcome, IP address, user name, browser type, and geographic location. <ul class='dashed'><li>See a high-level view of activity across all of your applications; graph all your Okta events and group by event outcomes, such as failed login attempts</li><li>Immediately start uncovering trends and unusual activity with out-of-the-box, intuitive facet filters</li></ul>"
+    image: dg/okta_logs1.png
+    name: okta_security_logs
+    title: "Analyze All Your Okta Logs with Just a Few Simple Clicks"
+  -
+    description: "Collect, visualize, and alert on key metrics to quickly detect and troubleshoot suspicious activity. <ul class='dashed'><li>Identify unusual trends, such as increased authentication attempts, using anomaly detection</li><li>Monitor Okta security threats in real time; easily identify who created, provisioned, or deleted an application or a user, in addition to when it happened by quickly searching for logs related to a specific user event</li></ul>"
+    image: dg/okta_anomalies.png
+    name: okta_anomalies
+    title: "Rapidly Troubleshoot Authentication Issues and Unusual Activity"
+  -
+    description: "Archive Okta logs for long-term storage to prove ongoing access of user activity, application access, and permission levels. <ul class='dashed'><li>Easily create an audit trail for system access</li><li>Quickly access archived logs dating back to any time period with the ability to rehydrate logs into indexes in a few simple clicks</li><li>Significantly reduce the costs associated with the storage of high-volume logs necessary for audit and compliance purposes</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: okta_compliance_trails
+    title: "Create an Audit Trail for Regulatory Compliance"
+  -
+    description: "Know where your environment is weakest and where to prioritize your security efforts. <ul class='dashed'><li>Easily detect which parts of your systems are most vulnerable with out-of-the-box dashboards and the live container map</li><li>Track the number of vulnerable hosts and container images over time, as well as lists of CVEs (common vulnerabilities and exposures)</li><li>Gain visibility into the health, performance, and security of your entire system with custom dashboards that display Twistlock metrics alongside metrics, traces, and logs from the rest of your stack</li></ul>"
+    image: dg/twistlockdashboard.png
+    name: twistlock_risks
+    title: "Monitor Security and Compliance Risks in Context"
+  -
+    description: "Analyze trends in your vulnerabilities over time with Datadog’s built-in log-processing pipeline, which automatically enriches Twistlock logs with attributes. <ul class='dashed'><li>Troubleshoot issues within specific parts of your infrastructure by with the ability to filter and correlate logs to CVEs; know which images to upgrade or downgrade to keep your systems safe</li><li>Focus on the level of risk that matters most to your system with tags; filter Twistlock data by tag severity</li></ul>"
+    image: dg/twistlockbenefitbox2.png
+    name: twistlock_vulnerability
+    title: "Rapidly Investigate & Respond to Vulnerability Statuses"
+  -
+    description: "Correct any misconfigurations as soon as possible with real-time alerts that notify you when Twistlock has failed to carry out an expected scan. <ul class='dashed'><li>Receive alerts for warnings or critical statuses when scans are irregular</li><li>Automatically identify abnormalities with outlier and anomaly detection</li></ul>"
+    image: dg/twistlockbenefitbox3.png
+    name: twistlock_scans
+    title: "Alert on Missed Scans & Improve Your Cloud Security"
+  -
+    description: "Stay on top of the most critical identity data across all of your users, devices, and applications.<ul class='dashed'><li>Gain visibility into all of your Auth0 events with tenant logs streamed into the Datadog platform</li><li>Visualize all your essential identity data with out-of-the-box and customizable dashboards; get set up within minutes</li><li>Seamlessly forward your Auth0 logs with no additional development work required</li></ul>"
+    image: blog/monitor-auth0-with-datadog/datadog-auth0-logins.png
+    name: real_time_user_activity
+    title: "Monitor User Activity in Real Time"
+  -
+    description: "Accelerate security investigations with detailed information on your Auth0 tenant.<ul class='dashed'><li>Instantly pinpoint brute-force and breached password attacks with critical log data</li><li>Receive actionable alerts for failed login attempts, excessive sign up attempts, and any other suspicious or malicious activity</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: identify_security_incidents
+    title: "Quickly Identify and Respond to Security Incidents"
+  -
+    description: "Unify business, dev, ops, and security teams in a single platform.<ul class='dashed'><li>Quickly pivot to see related metrics and application traces with a single click</li><li>Easily notify relevant teams during security threat investigations with customizable alerts</li><li>Integrate with popular collaboration tools, such as PagerDuty and Slack, to speed up resolution</li></ul>"
+    video: security-one-platform-compressed.mp4
+    name: cross_team_collab
+    title: "Improve Cross-Team Collaboration"
+  -
+    description: "<ul class='dashed'><li>Deploy the lightweight Datadog Agent to most popular IoT operating systems and hardware architectures</li><li>Get over 100 out-of-the-box system health metrics for CPU, memory, network I/O, and more</li><li>Collect data from devices that can’t run an Agent via comprehensive APIs, client libraries, and integrations with popular cloud gateways like Amazon IoT Core and Azure IoT Hub</li></ul>"
+    image: dg/host-map-iot.png
+    name: iot_1
+    title: "Flexible data collection to monitor your entire fleet"
+  -
+    description: "<ul class='dashed'><li>Hundreds of pre-built integrations and out-of-the-box dashboards for popular IoT gateways, streaming data platforms, databases, and more</li><li>Visualize and alert on communication errors between devices and the cloud</li><li>Quickly find the root cause of issues, whether it’s a malfunctioning device, connectivity issues, or backend data processing bottlenecks</li></ul>"
+    image: dg/aws-iot-core.png
+    name: iot_3
+    title: "One platform for end-to-end visibility"
+  -
+    description: "<ul class='dashed'><li>Get real-time visibility into business KPIs specific to your device like availability of connected sensors, data processing throughput, or the results of control algorithms</li><li>Aggregate metrics and events by any device attribute like model or location</li><li>Visualize the impact of firmware and application updates on device performance</li></ul>"
+    image: iot_system_metrics.png
+    name: iot_2
+    title: "Collect granular custom metrics and logs without impacting performance"
+  -
+    description: "<ul class='dashed'><li>Use tags to set alerts at any level from individual devices to fleetwide</li><li>Reduce false alarms from transient issues with composite and machine-learning based alerts</li><li>Track whether devices are meeting reliability goals with Service Level Objectives</li></ul>"
+    image: monitor_outlier.png
+    name: iot_4
+    title: "Actionable alerts that eliminate false positives"
+  -
+    description: "Pinpoint trends in Carbon Black logs, including common threats outlined by the MITRE ATT&CK® framework.<ul class='dashed'><li>Rapidly analyze and respond to the most common threats to your systems with out-of-the-box, customizable dashboards</li><li>Quickly identify the machines that need to be isolated and repaired using Carbon Black logs</li></ul>"
+    image: dg/carbonblackbox1.png
+    name: carbon_black_one
+    title: "Monitor Endpoint Activity in Real Time"
+  -
+    description: "Rapidly analyze the most urgent threats first with custom threat detection rules based on their severity score.<ul class='dashed'><li>Easily create signals grouped by the endpoint’s internal IP address, unwanted programs, or any other relevant attribute</li><li>Pinpoint the most vulnerable devices on your network with granular Carbon Black logs stored for 15 months</li></ul>"
+    video: security-detection-rules-compressed.mp4
+    image: dg/carbonblackbenefitbox2.png
+    name: carbon_black_two
+    title: "Receive Alerts On the Most Critical Threats"
+  -
+    description: "Prioritize repairing the most vulnerable systems using tables to review compromised devices and the level of severity for each associated threat.<ul class='dashed'><li>Revoke access from your network to compromised devices with granular device log data</li><li>Prevent future threats by pushing any necessary software or virus definition updates based on specific threat instances</li></ul>"
+    video: security-one-platform-compressed.mp4
+    image: dg/carbonblackbenefitbox3.png
+    name: carbon_black_three
+    title: "Detect Compromised or Vulnerable Endpoints"
+  -
+    description: "Improve your security posture with a real-time view into all levels of your web applications.<ul class='dashed'><li>Monitor the most critical web application security metrics, such as total traffic allowed and blocked, anomalous web requests, and more with out-of-the-box, customizable dashboards</li><li>Protect your applications, APIs, and microservices across your hybrid and multi cloud environments</li></ul>"
+    image: blog/signal-sciences-realtime-web-attack-visibility/signal-sciences-dashboard.png
+    name: signal_sciences_1
+    title: "Gain Deep Visibility into your Entire Infrastructure"
+  -
+    description: "Accelerate security investigations with detailed information from all of your data sources.<ul class='dashed'><li>Quickly identify threats and attacks, such SQL injections, cross-site scripting, and more with actionable alerts; choose from attack-based alerts, incident alerts, outage alerts, and more</li><li>Reduce MTTR and MTTD for security incidents with all of your dev, ops, and security data sources unified in a single platform</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: signal_sciences_2
+    title: "Investigate and Respond to Web Attacks Faster"
+  -
+    description: "Unify business, dev, ops, and security teams in a single platform.<ul class='dashed'><li>Quickly pivot to see related logs, metrics, and application traces with a single click</li><li>Easily notify relevant teams during security threat investigations with customizable alerts</li><li>Integrate with popular collaboration tools, such as PagerDuty and Slack, to speed up resolution</li></ul>"
+    video: security-one-platform-compressed.mp4
+    name: signal_sciences_3
+    title: "Improve Cross-Team Collaboration"
+  -
+    description: "Enable full security visibility across your applications, network, and infrastructure.<ul class='dashed'><li>Enable full security visibility across your applications, network, and infrastructure.</li><li>Investigate security threats in a single pane of glass with detailed observability data: metrics, traces, logs, and more</li></ul>"
+    video: logs-main_integration.mp4
+    name: signal_sciences_4
+    title: "Simplify Complexity with End-To-End Visibility"
+  -
+    description: "<ul class='dashed'><li>Track key events from G Suite’s audit logs such as changes to administrative access, activity in Google Drive, user login activity, and changes to a user’s account</li><li>Easily analyze trends by correlating specific events, like successful logins, with other key attributes such as a user’s IP address or email address</li><li>Automatically receive alerts on potential problems with detailed observability data</li></ul>"
+    image: dg/carbonblackbox1.png
+    name: g_suite_one
+    title: "Monitor Activity Across All of Your G Suite Applications"
+  -
+    description: "<ul class='dashed'><li>Quickly identify spikes in failed login attempts with graphs; then easily inspect the associated logs in one click to further investigate</li><li>Rapidly pinpoint suspicious login attempts by creating a facet on the attributes of interest</li><li>Receive automatic alerts if a suspicious login occurs or anomalous behavior is detected</li></ul>"
+    video: security-detection-rules-compressed.mp4
+    image: dg/gsuitebenefitbox2.png
+    name: g_suite_two
+    title: "Detect Unusual Trends in Login Attempts"
+  -
+    description: "<ul class='dashed'><li>Triage possible attacks or issues with a user’s account, such as when a user tries to log into their account with a leaked password, with Datadog’s Detection Rules</li><li>Automatically notify your team of possible issues or attacks with Slack, PagerDuty, and  other collaboration integrations</li><li>Quickly access archived G Suite logs dating back to any time period for security, technical, or business audits; rehydrate logs into indexes in a few simple clicks</li></ul>"
+    video: security-one-platform-compressed.mp4
+    image: dg/carbonblackbenefitbox3.png
+    name: g_suite_three
+    title: "Gain Greater Insights into Your G Suite Logs"
+  -
+    description: "Simplify your security investigations with complete, end-to-end visibility.<ul class='dashed'><li>Get started monitoring quickly with simple, drag-and-drop, customizable dashboards</li><li>Visualize security trends broken down by key entities, such as IP addresses and users</li><li>Easily spot anomalies and quickly drill down further for deeper investigation</li></ul>"
+    image: blog/dash-2020-new-feature-roundup/security-dashboard.png
+    name: investigation_dashboards
+    title: "Create Investigation Dashboards Within Seconds"
+  -
+    description: "Easily identify who created, provisioned, or deleted an application or a user, in addition to when it happened. <ul class='dashed'><li>Search for all failed attempts to access Okta’s admin application to identify potential unauthorized users</li><li>Quickly search for logs related to a specific user event</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: security_for_okta
+    title: "Monitor Okta Security Threats In Real Time"
+  -
+    description: "Improve your security posture with default detection rules that flag attacker techniques and misconfigurations. <ul class='dashed'><li>Enable default detection rules, mapped to the MITRE ATT&CK® framework and compliance frameworks</li><li>Write your own custom rules wihtout learning a proprietary query language</li></ul>"
+    video: security-detection-rules-compressed.mp4
+    name: out_of_the_box_detection_rules_!
+    title: "Out-of-the-box detection rules"
+  -
+    description: "Detect potential threats across the full stream of ingested observability data. <ul class='dashed'><li>Analyze everything with Datadog's Without Limits™ platform, without the cost of indexing and retaining all of the data</li><li>Alert on malicious or anomalous patterns as data is received in real time</li></ul>"
+    image: blog/announcing-security-monitoring/datadog-security-monitoring-lwl-rev.png
+    name: real_time_threat_detection_1
+    title: "Real-time threat detection"
+  -
+    description: "Acheieve full security visibility across your applications, network, and infrastructure. <ul class='dashed'><li>Start ingesting security data in minutes with hundreds of built-in integrations like AWS CloudTrail, Okta, and G Suite</li><li>Investigate security threats in a single pane of glass with detailed observability data: metrics, traces, logs, and more</li></ul>"
+    video: logs-main_integration.mp4
+    name: security_integrations_1
+    title: "400+ vendor-supported integrations"
+  -
+    description: "Break down silos between developers, security, and operation teams. <ul class='dashed'><li>Detect threats in real time across dynamic cloud environments</li><li>Leverage detailed observability data to accelerate security investigations</li><li>Collaborate across the organization in a single unified platform</li></ul>"
+    image: dg/datadog-security-monitoring-signal-detail-rev2.png
+    name: security_for_dynamic_environments_1
+    title: "Security for dynamic environments"
+  -
+    description: "<ul class='dashed'><li>Run tests from various locations and identify users experiencing high latency</li><li>Determine impact of network latency on end user experience</li><li>Idenfity root causes of network issues such as DNS latency or high TTFB</li></ul>"
+    image: .png
+    video: .mp4
+    name: synthetics_api_latency
+    title: "Quickly discover the cause of latency"
+  -
+    description: "<ul class='dashed'><li>Get critical visibility into where and when your services call functions from potentially vulnerable dependencies from a single dashboard</li><li>Rapidly resolve possible attacks with contextual information about:</li><ul><li>The type of attack the invoked dependency is vulnerable to</li><li>Best practices for protecting your application</li><li>Any available updates/rollbacks to remediate the problem</li></ul>"
+    image: dg/snyk1.jpeg
+    name: snyk_identify_vulnerabilities
+    title: "Instantly Identify Vulnerabilities within Services"
+  -
+    description: "<ul class='dashed'><li>Confidently utilize open-source code to build new products without fear of security risks from malicious code</li><li>Seamlessly access valuable security information with service and host-level granularity alongside vital performance data from your code profiles</li></ul>"
+    image: dg/snyk2.jpeg
+    name: snyk_security_profiler
+    title: "Securely Develop Open Source-Based Products"
+  - 
+    description: "<ul class='dashed'><li>Analyze 100% of your code in production including methods, classes, and threads across your entire stack</li><li>Seamlessly pivot between profiles and distributed traces with 1-click to get full context and identify the most resource-intensive requests</li><li>Get deeper insights into exceptions, garbage collection, I/O, locks, and packages with continuous observability and category breakdowns such as code cache, class loading, and heap size</li></ul>"
+    video: products/profiler/profiling-2.mp4
+    name: profiler_1
+    title: "Get Complete Visibility into Code-Level Performance"
+  -
+    description: "<ul class='dashed'><li>Quickly triage security risks with Snyk’s database, which collates vulnerability scores from FIRST’s Common Vulnerability Scoring System (CVSS) to characterize the severity of a successful vulnerability exploit</li><li>Gain observability into both code performance and security risk in a single pane of glass with Snyk natively integrated in Datadog’s Continuous Profiler</li></ul>"
+    video: products/profiler/profiling-1.mp4
+    name: snyk_security
+    title: "Investigate Security Vulnerabilities Faster"
