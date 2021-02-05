@@ -34,6 +34,10 @@ sections:
   path: data/offices.yaml
   label: Offices
 - type: document
+  path: data/features_box.yaml
+  label: Feature Box
+  match: "**/*"
+- type: document
   path: README.md
   label: README
   read_only: true
