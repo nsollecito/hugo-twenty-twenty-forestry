@@ -7,8 +7,14 @@ fields:
   label: features
   fields:
   - type: text
+    name: name
+    label: name
+  - type: text
     name: title
     label: title
+  - type: file
+    name: image
+    label: image
   - type: textarea
     name: description
     label: description
@@ -16,13 +22,7 @@ fields:
       wysiwyg: true
       schema:
         format: html
-  - type: file
-    name: image
-    label: image
-  - type: text
-    name: name
-    label: name
   config:
-    labelField: title
+    labelField: name
 pages:
 - data/feature_box.yaml
